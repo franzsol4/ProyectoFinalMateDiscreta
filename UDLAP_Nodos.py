@@ -329,15 +329,3 @@ result_label.pack(pady=10)
 
 # Ejecutar la interfaz gráfica
 window.mainloop()
-
-
-# # Ejemplo de uso
-# start_node = "CB"  # Nodo de inicio
-# end_node = "CIR"   # Nodo final
-#
-# path, distance = shortest_path(udlap, start_node, end_node)
-# if path:
-#     print(f"La ruta más corta de {start_node} a {end_node} es: {path}")
-#     print(f"Distancia total: {distance} metros")
-# else:
-#     print(f"No hay ruta entre {start_node} y {end_node}")
